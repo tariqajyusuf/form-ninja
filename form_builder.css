@@ -1,0 +1,136 @@
+/* form_builder.css - Provides styling to optimize the appearance of the form builder
+ * Copyright 2012, Tariq Yusuf
+ *
+ * This file is part of Form Ninja.
+ *
+ * Form Ninja is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Form Ninja is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with Form Ninja.  If not, see <http://www.gnu.org/licenses/>.
+ */
+.formbuilder h1,
+.formbuilder h2,
+.formbuilder h3,
+.formbuilder h4,
+.formbuilder h5,
+.formbuilder h6 {
+	clear: none;	
+}
+
+#formBuilder_main {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 10pt;
+}
+
+.formBuilder_controls {
+	float: right;
+	clear: right;
+}
+
+.formBuilder_controls > a {
+	text-decoration: none;
+	font-size: 10pt;
+	text-align: center;
+	float: right;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.formBuilder_controls > a > img {
+	width: 32px;
+	height: 32px;
+	border: 0;
+	display: block;
+	margin: 0 auto;
+}
+
+.application-header, .page-header {
+	overflow: hidden;
+}
+
+.page {
+	clear: both;
+}
+
+label, span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+a.ty-button {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #999;
+    line-height: 2.2em;
+    font-size: 14px;
+    padding: 0 20px;
+    color: #555;
+    text-decoration: none;
+    text-shadow: 0px 1px #eee;
+    
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    
+    box-shadow: inset 0 1px 0px rgba(255,255,255,0.5);
+    -moz-box-shadow: inset 0 1px 0px rgba(255,255,255,0.5);
+    -webkit-box-shadow: inset 0 1px 0px rgba(255,255,255,0.5);
+    
+    background-color: #f7f7f7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#ccc)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #e8e8e8,  #ccc); /* for firefox 3.6+ */
+}
+a.ty-button:hover {
+    text-decoration: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#d8d8d8)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #eee,  #d8d8d8); /* for firefox 3.6+ */
+}
+a.ty-button:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#ddd)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #ccc,  #ddd); /* for firefox 3.6+ */
+}
+
+a.ty-button.purple, a.ty-button.blue {
+    color: #fff;
+    text-shadow: none;
+}
+a.ty-button.gold {
+    background-color: #b4b561;
+    background: -moz-linear-gradient(center top , #dbdd8a, #b4b561) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dbdd8a), to(#b4b561));
+}
+a.ty-button.gold:hover {
+    background: -moz-linear-gradient(center top , #e0e48f, #c5c76d) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e0e48f), to(#c5c76d));
+}
+a.ty-button.gold:active {
+    background: -moz-linear-gradient(center top , #b4b561, #dbdd8a) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b4b561), to(#dbdd8a));
+}
+
+/*WIP*/
+a.ty-button.purple {
+    background-color: #796c98;
+    background: -moz-linear-gradient(center top , #897ea4, #796c98) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#897ea4), to(#796c98));
+}
+a.ty-button.purple:active {
+    background: -moz-linear-gradient(center top , #796c98, #897ea4) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#796c98), to(#897ea4));
+}
+a.ty-button.blue {
+    background-color: #8ADEE2;
+    background: -moz-linear-gradient(center top , #64aad1, #59b) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#64aad1), to(#59b));
+}
+a.ty-button.blue:active {
+    background: -moz-linear-gradient(center top , #59b, #64aad1) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#59b), to(#64aad1));
+}

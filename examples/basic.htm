@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="Stylesheet" type="text/css" href="../form_builder.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="../ckeditor/ckeditor_basic.js"></script>
+		<script type="text/javascript" src="../object.js"></script>
+		<script type="text/javascript">
+			var app = new Application();
+			var IMAGE_DIRECTORY = "../images"	// Configure correct image directory
+			$(document).ready(function() {
+				initializeFormBuilder($("#replaceMe"), app);
+			});
+		</script>
+		<title>FormNinja - Basic Integration</title>
+	</head>
+	<body>
+		<div id="replaceMe"></div>
+	</body>
+</html>
