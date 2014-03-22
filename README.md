@@ -1,7 +1,9 @@
 Form Ninja (version 0.5 BETA)
 ==========
 A jQuery powered, dynamic HTML form renderer.
+
 Created by Tariq Yusuf (tariq@tariqyusuf.in)
+
 Revised November 9, 2012
 
 Overview
@@ -10,8 +12,8 @@ Form Ninja is a jQuery-powered HTML form builder that provides an easy way for u
 
 Dependencies
 ------------
-jQuery 1.8.2
-CKEditor 3.0 (included in repo)
+- jQuery 1.8.2
+- CKEditor 3.0 (included in repo)
 
 Credits
 -------
