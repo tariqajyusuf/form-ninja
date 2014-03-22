@@ -4,12 +4,6 @@ A jQuery powered, dynamic HTML form renderer.
 Created by Tariq Yusuf (tariq@tariqyusuf.in)
 Revised November 9, 2012
 
-CONTENTS:
-1. OVERVIEW
-2. DEPENDENCIES
-3. CREDITS
-4. INSTALL INSTRUCTIONS
-
 Overview
 ---------
 Form Ninja is a jQuery-powered HTML form builder that provides an easy way for users to build interactive applications with standard input controls, time charts, and rich text editors.
